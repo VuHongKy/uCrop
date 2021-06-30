@@ -297,9 +297,9 @@ public class TransformImageView extends AppCompatImageView {
 
         mBitmapLaidOut = true;
 
-        if (mTransformImageListener != null) {
-            mTransformImageListener.onLoadComplete();
-        }
+//        if (mTransformImageListener != null) {
+//            mTransformImageListener.onLoadComplete();
+//        }
     }
 
     /**

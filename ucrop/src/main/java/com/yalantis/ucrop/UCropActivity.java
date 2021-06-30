@@ -391,6 +391,8 @@ public class UCropActivity extends AppCompatActivity {
             mBlockingView.setClickable(false);
             mShowLoader = false;
             supportInvalidateOptionsMenu();
+
+            rotateByAngle(90);
         }
 
         @Override
