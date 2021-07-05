@@ -63,9 +63,9 @@ public class ResultActivity extends BaseActivity {
             try {
                 UCropView uCropView = findViewById(R.id.ucrop);
                 uCropView.getCropImageView().setImageUri(uri, null);
-                uCropView.getOverlayView().setShowCropFrame(false);
-                uCropView.getOverlayView().setShowCropGrid(false);
-                uCropView.getOverlayView().setDimmedColor(Color.TRANSPARENT);
+                uCropView.getOverlayView().setShowCropFrame(true);
+                uCropView.getOverlayView().setShowCropGrid(true);
+                uCropView.getOverlayView().setDimmedColor(Color.BLACK);
             } catch (Exception e) {
                 Log.e(TAG, "setImageUri", e);
                 Toast.makeText(this, e.getMessage(), Toast.LENGTH_LONG).show();
